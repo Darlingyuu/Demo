@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('拉取代码') {
+        stage('main拉取代码') {
             steps {
 
                 echo '拉取代码完成'
